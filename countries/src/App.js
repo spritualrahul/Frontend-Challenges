@@ -7,21 +7,20 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <Header/>
       <main>
-     
-      <Header/>
        <div className="search-filter-container">
        <SearchBar/>
        <SelectMenue/>
-       <CountryCard/>
+       {/* <CountryCard/> */}
        <CountryList/>
        
        </div>
       </main>
 
       
-    </div>
+    </>
   );
 }
 
